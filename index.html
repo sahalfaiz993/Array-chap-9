@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+<body>
+   <script>
+    var name = prompt("type a name")
+    var array1 = [name]
+    console.log(array1)
+assignment
+var array2 = ["hasaan"];
+var numarray =[1 , 2 , 3 , 4 , 5]
+var boolarr = [true];
+var mix = ["hasaan" , 2 ,true]
+        // string , number , boolean
+var qualifications = [` SSC <br> HSC <br> BCS <br> BS<br> BCOM<br> MS <br> M Phil <br> PhD`]
+document.write(qualifications)
+assignment
+
+
+var name = prompt("type the name")
+var eng = +prompt("type the eng marks")
+var math = +prompt("type the math marks")
+var urdu = +prompt("type the urdu marks")
+var marks = eng + math + urdu
+var parcent = marks / 500  * 100
+
+document.write(name)
+document.write(marks + " " )
+document.write(" parcentage " + parcent + "%" )
+
+
+
+// Assignment a
+
+
+var arr5 =[" " , "pink" ," ", "blue" ," ", "red" , " "]
+
+var prop = prompt("type your favourate color") 
+
+document.write(prop + arr5 + arr5.unshift())
+
+// Assignment a
+
+var arr5 =[" " , "pink" ," ", "blue" ," ", "red" , " "]
+
+var prop = prompt("type your favourate color") 
+
+document.write(prop + arr5 + arr5.pop())
+
+
+var arr5 =[ "pink" , "blue" , "red" ]
+
+document.write( `pink , blue , red <br> <br> `);
+
+document.write(arr5.splice(1 , 2  , "green"))
+
+
+var prop1 =+prompt("type your color to add in array")
+var prop2 =+prompt("type your index where you want to add color")
+
+var arr6 =["green" , "red" , "blue" ]
+var index = arr6.splice(prop2 ,0, prop1)
+var result =arr6 + " ," + prop1 
+document.write(result)
+document.write(index)
+
+
+// Add
+
+var arr = ["red" , "green", "yellow"]
+        var index =+ prompt("Where you want to add")
+        var color = prompt("What you want to add")
+        arr.splice(index, 0, color)
+ 
+document.write(arr)
+
+
+// delete
+var arr = ["red" , "green", "yellow"]
+        var index =+ prompt("start")
+        var del =+ prompt("end")
+        arr.splice(index, del)
+        document.write(arr)
+
+
+// slice method
+
+var arr1 = ["karachi" , "peshawer" ,"islamabad"]
+document.write(arr1)
+
+var arr2 =arr1.slice(0 , 3)
+
+alert(arr2.join(""))
+
+
+
+
+
+
+
+
+   </script> 
+</body>
+</html>
